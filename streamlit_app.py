@@ -25,8 +25,4 @@
         st.error(f"An error occurred during analysis: {str(e)}")
 else:
     st.info("Please upload an ultrasound image to begin analysis.")
-# Disclaimer
-st.caption("""
-**Disclaimer**: This tool provides preliminary analysis only and is not a substitute 
-for professional medical diagnosis. Always consult with a healthcare provider.
-""")
+
